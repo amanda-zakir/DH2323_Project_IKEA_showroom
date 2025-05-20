@@ -33,14 +33,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Contrast: 1
+    - _Contrast: 0.51
     - _Glossiness: 0
     - _Metallic: 0
-    - _TilingPatern1: 2.73
-    - _TilingPatern2: 2.73
+    - _TilingPatern1: 2
+    - _TilingPatern2: 0.57
     - __dirty: 1
     m_Colors:
     - _BaseColor: {r: 0.3270737, g: 0.6603774, b: 0.6391672, a: 1}
     - _Patern1Color: {r: 1, g: 1, b: 1, a: 0}
     - _Patern2Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
