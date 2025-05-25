@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerCam : MonoBehaviour
@@ -14,11 +16,6 @@ public class PlayerCam : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
-        // Initialize rotation values to current rotation
-        Vector3 angles = transform.eulerAngles;
-        xRotation = angles.x;
-        yRotation = orientation.eulerAngles.y;
     }
 
     private void Update()
