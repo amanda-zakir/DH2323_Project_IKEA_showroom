@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 7d1d7ac7b579a564fb50e140818f787f, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 93188a4d96807134da66828afcc17211, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: d1dc106a62d0c2745bff04359b032631, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -1835,8 +1835,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7853ec1d30d1b7443b3bd24d16673f04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensX: 400
-  sensY: 400
+  sensX: 1000
+  sensY: 1000
   orientation: {fileID: 1306038884}
 --- !u!81 &908973161
 AudioListener:
